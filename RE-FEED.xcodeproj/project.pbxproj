@@ -16,6 +16,7 @@
 		1464E3DB24BE4AEC009D0ADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1464E3D924BE4AEC009D0ADF /* LaunchScreen.storyboard */; };
 		1464E3E624BE4AEC009D0ADF /* RE_FEEDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1464E3E524BE4AEC009D0ADF /* RE_FEEDTests.swift */; };
 		1464E3F124BE4AEC009D0ADF /* RE_FEEDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1464E3F024BE4AEC009D0ADF /* RE_FEEDUITests.swift */; };
+		E7A8B9BC24BF811C0081DFB9 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A8B9BB24BF811C0081DFB9 /* SecondTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1464E3EC24BE4AEC009D0ADF /* RE-FEEDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RE-FEEDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1464E3F024BE4AEC009D0ADF /* RE_FEEDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RE_FEEDUITests.swift; sourceTree = "<group>"; };
 		1464E3F224BE4AEC009D0ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7A8B9BB24BF811C0081DFB9 /* SecondTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				1464E3CD24BE4AE7009D0ADF /* SceneDelegate.swift */,
 				1464E3CF24BE4AE7009D0ADF /* ViewController.swift */,
 				1464E3D124BE4AE7009D0ADF /* Main.storyboard */,
+				E7A8B9BB24BF811C0081DFB9 /* SecondTableViewController.swift */,
 				1464E3D724BE4AEC009D0ADF /* Assets.xcassets */,
 				1464E3D924BE4AEC009D0ADF /* LaunchScreen.storyboard */,
 				1464E3DC24BE4AEC009D0ADF /* Info.plist */,
@@ -264,6 +267,7 @@
 			files = (
 				1464E3D024BE4AE7009D0ADF /* ViewController.swift in Sources */,
 				1464E3CC24BE4AE7009D0ADF /* AppDelegate.swift in Sources */,
+				E7A8B9BC24BF811C0081DFB9 /* SecondTableViewController.swift in Sources */,
 				1464E3D624BE4AE7009D0ADF /* RE_FEED.xcdatamodeld in Sources */,
 				1464E3CE24BE4AE7009D0ADF /* SceneDelegate.swift in Sources */,
 			);
