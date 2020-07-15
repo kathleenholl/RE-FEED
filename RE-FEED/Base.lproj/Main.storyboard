@@ -51,7 +51,7 @@
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="cNN-M1-q3b" kind="presentation" id="wJv-xu-9cp"/>
+                                            <segue destination="epH-Vd-rZl" kind="show" id="N3c-FC-CtD"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -86,7 +86,6 @@
         <!--Second Table View Controller-->
         <scene sceneID="Kee-CI-aMv">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yPk-Q0-FP2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="nXe-20-9RT" customClass="SecondTableViewController" customModule="RE_FEED" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sNS-6G-pwH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -171,6 +170,7 @@
                         <outletCollection property="ingredientButton" destination="pv2-rc-s0o" collectionClass="NSMutableArray" id="3Lg-89-Yeb"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yPk-Q0-FP2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="886.95652173913049" y="126.5625"/>
         </scene>
@@ -194,7 +194,7 @@
             <objects>
                 <viewController id="cNN-M1-q3b" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TxB-TC-ynG">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="xMc-ws-TZj"/>
@@ -203,6 +203,82 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lxp-KY-rPW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2499" y="127"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TNu-Ge-g5R">
+            <objects>
+                <viewController id="epH-Vd-rZl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jw3-xj-Xrw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lMI-mS-aFE">
+                                <rect key="frame" x="78" y="479" width="237" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Galvji-Bold" family="Galvji" pointSize="36"/>
+                                <state key="normal" title="Need Help">
+                                    <color key="titleColor" red="0.29850971698760986" green="0.75705093145370483" blue="0.97449666261672974" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pki-0S-Xoo">
+                                <rect key="frame" x="80" y="301" width="235" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Galvji-Bold" family="Galvji" pointSize="36"/>
+                                <state key="normal" title="Want to Help">
+                                    <color key="titleColor" red="0.27277952432632446" green="0.71559542417526245" blue="0.97287946939468384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Uqz-aB-3lQ" kind="show" id="REv-PY-ZhF"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Who are you?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TqP-ZZ-LXw">
+                                <rect key="frame" x="54" y="42" width="307" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="40"/>
+                                <color key="textColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NXn-C0-73K">
+                                <rect key="frame" x="167" y="149" width="81" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="45"/>
+                                <color key="textColor" red="0.27277952432632446" green="0.71559542417526245" blue="0.97287946939468384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="3t9-br-YN4"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="quU-Lx-1Ty"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gBg-iH-99I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3208.6956521739135" y="117.85714285714285"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="GlY-Kf-jer">
+            <objects>
+                <viewController id="Uqz-aB-3lQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PIA-kd-FMu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Here is a list of organizations to donate to:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AvH-uX-fGg">
+                                <rect key="frame" x="34" y="39" width="346" height="154"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="jcJ-de-Uwt"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="e1n-5c-d8W"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0tE-GS-IJ3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3868.115942028986" y="116.51785714285714"/>
         </scene>
     </scenes>
     <resources>
