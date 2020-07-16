@@ -26,7 +26,7 @@ class backyardHomepage: UIViewController {
         UIApplication.shared.open(URL(string : "https://www.goodhousekeeping.com/home/gardening/advice/a23945/start-composting/")! as URL, options: [:], completionHandler: nil)
     }
     @IBAction func BackyardArticle3(_ sender: UIButton) {
-        UIApplication.shared.open(URL(string: "https://recyclenation.com/2016/10/everything-you-need-to-know-about-composting/ ")! as URL, options: [:], completionHandler: nil)
+        UIApplication.shared.open(URL(string: "https://rodaleinstitute.org/blog/backyard-composting-basics-a-cheatsheet/")! as URL, options: [:], completionHandler: nil)
     }
     
     

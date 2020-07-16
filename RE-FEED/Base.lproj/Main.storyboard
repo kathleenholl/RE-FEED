@@ -51,7 +51,7 @@
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="YLw-12-bE8" kind="presentation" id="nJD-gW-tfG"/>
+                                    <segue destination="YLw-12-bE8" kind="show" id="5OQ-de-Kc5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="85T-4v-zWw">
@@ -97,52 +97,42 @@
                                 <rect key="frame" x="20" y="8" width="58" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add sm words here idk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EAE-mv-Xv3">
-                                <rect key="frame" x="120" y="163" width="175" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Compost Bag" translatesAutoresizingMaskIntoConstraints="NO" id="L1W-XW-Dvh">
-                                <rect key="frame" x="20" y="248" width="180" height="165"/>
+                                <rect key="frame" x="20" y="263" width="180" height="165"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Compost food" translatesAutoresizingMaskIntoConstraints="NO" id="Xl1-ZC-1i4">
-                                <rect key="frame" x="214" y="248" width="180" height="165"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uob-GS-Nzm">
+                                <rect key="frame" x="20" y="449" width="374" height="136"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add sm words here idk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uob-GS-Nzm">
-                                <rect key="frame" x="120" y="462" width="175" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <string key="text">The process of composting can be broken up into two main categories: Backyard composting and industrial composting. Backyard composting is a simple method of managing organic waste that can easily be done at home. Industrial composing is a large scale process that breaks down huge amounts of organic waste at a time. Both processes prevent food waste and generate nutritious compost, just on different levels. </string>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Compost general B" translatesAutoresizingMaskIntoConstraints="NO" id="efF-Wc-oL2">
-                                <rect key="frame" x="20" y="609" width="180" height="159"/>
+                                <rect key="frame" x="20" y="649" width="180" height="159"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="compost general I" translatesAutoresizingMaskIntoConstraints="NO" id="N6q-qO-MNJ">
-                                <rect key="frame" x="214" y="609" width="180" height="159"/>
+                                <rect key="frame" x="214" y="649" width="180" height="159"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="011-3L-s0o">
-                                <rect key="frame" x="250" y="535" width="108" height="46"/>
+                                <rect key="frame" x="250" y="595" width="108" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="28"/>
                                 <state key="normal" title="Industrial "/>
                                 <connections>
-                                    <segue destination="r24-ed-vGN" kind="presentation" id="r5U-6T-K7E"/>
+                                    <segue destination="r24-ed-vGN" kind="show" id="fEu-sw-isC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7BE-Ne-hXa">
-                                <rect key="frame" x="37" y="515" width="147" height="86"/>
+                                <rect key="frame" x="31" y="583" width="147" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="28"/>
                                 <state key="normal" title="Backyard  Composting"/>
                                 <connections>
-                                    <segue destination="wYt-EE-9sP" kind="presentation" id="JVQ-4N-rpn"/>
+                                    <segue destination="wYt-EE-9sP" kind="show" id="XX9-oT-zzC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lrY-xL-Kae">
@@ -154,13 +144,26 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="28" weight="medium"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" id="WF4-9o-dVh"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="HX1-wZ-nBP"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VpU-QH-snT">
+                                <rect key="frame" x="16" y="126" width="378" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">So what even is composting? Composting is a super easy way to prevent leftover, old, or even rotten food from going to waste. It decomposes solid wastes, organic materials, and food scraps that would otherwise end up in a landfill and turns it into compost, a rich and nutritious fertilizer that allows plants to grow strong and healthy. </string>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Compost food" translatesAutoresizingMaskIntoConstraints="NO" id="Xl1-ZC-1i4">
+                                <rect key="frame" x="214" y="263" width="180" height="165"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="fcG-Qx-eNJ"/>
                     </view>
+                    <navigationItem key="navigationItem" id="YnB-rj-VTj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ufN-c8-1T1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -195,26 +198,27 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="28" weight="medium"/>
                                 </state>
                                 <connections>
-                                    <segue destination="YLw-12-bE8" kind="presentation" id="ZZC-t8-r6o"/>
+                                    <segue destination="YLw-12-bE8" kind="show" id="HNQ-5z-2DA"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="B1" translatesAutoresizingMaskIntoConstraints="NO" id="Da7-Ob-KXx">
-                                <rect key="frame" x="20" y="200" width="180" height="165"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="B1" translatesAutoresizingMaskIntoConstraints="NO" id="Da7-Ob-KXx">
+                                <rect key="frame" x="20" y="146" width="180" height="165"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="B2" translatesAutoresizingMaskIntoConstraints="NO" id="irv-Sg-nLD">
-                                <rect key="frame" x="214" y="200" width="180" height="165"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="B2" translatesAutoresizingMaskIntoConstraints="NO" id="irv-Sg-nLD">
+                                <rect key="frame" x="214" y="146" width="180" height="165"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add sm words here idk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkR-H9-OZc">
-                                <rect key="frame" x="120" y="412" width="175" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkR-H9-OZc">
+                                <rect key="frame" x="19" y="378" width="377" height="222"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <mutableString key="text">Backyard composting is a super easy process that can be done by anyone at home to prevent food waste and create fertilizer for backyard gardens. Household generated organic material can be placed in a compost bin. They can be a variety of shapes and sizes, but should always be at least one cubic yard to insulatate the core of the pile at 130°. A good compost pile should have a mix of 50% green and 50% brown materials cut up, and water should be added every 7-10 days. Composting isn’t a precise science, so it’s ok to experiment and try different combos of greens, browns, and water until something works. Although compost can take a year or longer to finish, you’ll know its done when it is dark brown, crumbly, and smell like fresh soil.</mutableString>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xlP-rG-qez">
-                                <rect key="frame" x="40" y="581" width="335" height="39"/>
+                                <rect key="frame" x="40" y="679" width="335" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                 <state key="normal" title="How to make compost at home"/>
@@ -223,7 +227,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nsh-yt-IxP">
-                                <rect key="frame" x="110" y="628" width="214" height="36"/>
+                                <rect key="frame" x="100" y="650" width="214" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                 <state key="normal" title="Composting for beginners"/>
@@ -232,39 +236,30 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7kf-mP-KF1">
-                                <rect key="frame" x="11" y="761" width="401" height="35"/>
+                                <rect key="frame" x="65" y="792" width="285" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="19"/>
-                                <state key="normal" title="Everything You Need to Know About Composting"/>
+                                <state key="normal" title="Backyard composting cheat sheet!"/>
                                 <connections>
                                     <action selector="BackyardArticle3:" destination="wYt-EE-9sP" eventType="touchUpInside" id="EV5-GK-r5A"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Videos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7gP-ee-QJo">
-                                <rect key="frame" x="175" y="539" width="79" height="34"/>
+                                <rect key="frame" x="168" y="608" width="79" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Articles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GT4-Rx-Cfk">
-                                <rect key="frame" x="175" y="670" width="85" height="34"/>
+                                <rect key="frame" x="165" y="717" width="85" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbm-66-Lzp">
-                                <rect key="frame" x="70" y="467" width="294" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="22"/>
-                                <state key="normal" title="Backyard Composting Essentials"/>
-                                <connections>
-                                    <segue destination="YGh-UO-xWS" kind="presentation" id="hO1-rv-dg6"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8vR-lr-iDf">
-                                <rect key="frame" x="70" y="705" width="274" height="36"/>
+                                <rect key="frame" x="70" y="759" width="274" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                 <state key="normal" title="How to start composting at home"/>
@@ -272,10 +267,20 @@
                                     <action selector="BackyardArticle1:" destination="wYt-EE-9sP" eventType="touchUpInside" id="ne2-1t-zaG"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbm-66-Lzp">
+                                <rect key="frame" x="60" y="325" width="294" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="22"/>
+                                <state key="normal" title="Backyard Composting Essentials"/>
+                                <connections>
+                                    <segue destination="YGh-UO-xWS" kind="show" id="TAV-40-wdS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Jz8-3W-xj0"/>
                     </view>
+                    <navigationItem key="navigationItem" id="mMN-c2-FsO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L5r-y7-dBG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -302,7 +307,7 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="28" weight="medium"/>
                                 </state>
                                 <connections>
-                                    <segue destination="wYt-EE-9sP" kind="presentation" id="pde-Zj-0uP"/>
+                                    <segue destination="wYt-EE-9sP" kind="show" id="vYK-5S-B9x"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="veg peel" translatesAutoresizingMaskIntoConstraints="NO" id="MSB-3F-2rT">
@@ -348,15 +353,6 @@
                                 <rect key="frame" x="280" y="638" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFC-VE-jBS">
-                                <rect key="frame" x="42" y="211" width="329" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
-                                <state key="normal" title="What to put in your backyard composter"/>
-                                <connections>
-                                    <action selector="backyardArticle2:" destination="YGh-UO-xWS" eventType="touchUpInside" id="Jam-Tp-9ma"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coffee Grounds" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tm4-GG-ySx">
                                 <rect key="frame" x="142" y="385" width="126" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -428,10 +424,20 @@
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFC-VE-jBS">
+                                <rect key="frame" x="43" y="202" width="329" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                <state key="normal" title="What to put in your backyard composter"/>
+                                <connections>
+                                    <action selector="backyardArticle2:" destination="YGh-UO-xWS" eventType="touchUpInside" id="Jam-Tp-9ma"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="1DA-Tl-1t1"/>
                     </view>
+                    <navigationItem key="navigationItem" id="NZ5-PE-ohU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dor-Nu-Ekt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -458,40 +464,41 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="28" weight="medium"/>
                                 </state>
                                 <connections>
-                                    <segue destination="YLw-12-bE8" kind="presentation" id="snk-j7-9Kj"/>
+                                    <segue destination="YLw-12-bE8" kind="show" id="xip-ml-oK1"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add sm words here idk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZvG-f2-RdR">
-                                <rect key="frame" x="120" y="205" width="175" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZvG-f2-RdR">
+                                <rect key="frame" x="20" y="138" width="374" height="186"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <mutableString key="text">Industrial composing is a large-scale process that takes place at a high-tech commercial composting facility. It handles huge amounts of organic waste, turning food scraps and yard waste into high quality, nutrient rich compost, which can then be sold to companies, individuals, farms, or nurseries. Industrial composting collects materials from restaurants, grocery stores, landscaping companies, nurseries, or even from waste management systems. All the organic waste is brought to a facility where it is sorted, piled, and turned by workers and machines. </mutableString>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="I1" translatesAutoresizingMaskIntoConstraints="NO" id="hf1-1R-9HO">
-                                <rect key="frame" x="20" y="322" width="180" height="165"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="compostTurner" translatesAutoresizingMaskIntoConstraints="NO" id="hf1-1R-9HO">
+                                <rect key="frame" x="20" y="389" width="180" height="165"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="I2" translatesAutoresizingMaskIntoConstraints="NO" id="KIw-48-dVg">
-                                <rect key="frame" x="214" y="322" width="180" height="165"/>
+                                <rect key="frame" x="214" y="389" width="180" height="165"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Videos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0d2-Sc-B9j">
-                                <rect key="frame" x="168" y="538" width="79" height="34"/>
+                                <rect key="frame" x="168" y="562" width="79" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Articles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbD-sD-8b8">
-                                <rect key="frame" x="170" y="674" width="85" height="34"/>
+                                <rect key="frame" x="165" y="692" width="85" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dgu-c1-eFI">
-                                <rect key="frame" x="74" y="580" width="272" height="36"/>
+                                <rect key="frame" x="71" y="648" width="272" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                 <state key="normal" title="How industrial composting works"/>
@@ -500,7 +507,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kzq-Tl-xjf">
-                                <rect key="frame" x="120" y="618" width="180" height="36"/>
+                                <rect key="frame" x="117" y="604" width="180" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                 <state key="normal" title="Industrial Composting"/>
@@ -509,7 +516,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AIx-UX-P1k">
-                                <rect key="frame" x="75" y="778" width="283" height="36"/>
+                                <rect key="frame" x="66" y="778" width="283" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                 <state key="normal" title="Homepage for Seattle composting"/>
@@ -518,21 +525,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2WK-iF-1Ta">
-                                <rect key="frame" x="87" y="730" width="254" height="36"/>
+                                <rect key="frame" x="80" y="734" width="254" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                 <state key="normal" title="Guide to trash sorting in seattle"/>
                                 <connections>
                                     <action selector="IndustrialArticle1:" destination="r24-ed-vGN" eventType="touchUpInside" id="QD3-iF-WS9"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFf-xj-qto">
-                                <rect key="frame" x="64" y="491" width="291" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="22"/>
-                                <state key="normal" title="Industrial Composting Essentials"/>
-                                <connections>
-                                    <segue destination="cv9-7p-1ML" kind="presentation" id="PBj-wq-PTc"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Industrial Composting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6n-eS-kPp">
@@ -543,14 +541,24 @@
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFf-xj-qto">
+                                <rect key="frame" x="62" y="326" width="291" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="22"/>
+                                <state key="normal" title="Industrial Composting Essentials"/>
+                                <connections>
+                                    <segue destination="cv9-7p-1ML" kind="show" id="kin-Yk-JC4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Lyt-Wa-dbt"/>
                     </view>
+                    <navigationItem key="navigationItem" id="No2-Wh-fL2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d7V-qe-IWA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2511" y="852"/>
+            <point key="canvasLocation" x="2510.144927536232" y="851.78571428571422"/>
         </scene>
         <!--Industrial Page2-->
         <scene sceneID="3SW-DJ-q5U">
@@ -581,16 +589,7 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="28" weight="medium"/>
                                 </state>
                                 <connections>
-                                    <segue destination="r24-ed-vGN" kind="presentation" id="YtG-2H-eFq"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0NH-Zb-5il">
-                                <rect key="frame" x="37" y="206" width="340" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
-                                <state key="normal" title="What goes in the food and yard waste bin"/>
-                                <connections>
-                                    <action selector="industrialVid3:" destination="cv9-7p-1ML" eventType="touchUpInside" id="sAI-WP-SOD"/>
+                                    <segue destination="r24-ed-vGN" kind="show" id="1z8-Mb-uwn"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flowers" translatesAutoresizingMaskIntoConstraints="NO" id="NaE-av-176">
@@ -692,10 +691,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0NH-Zb-5il">
+                                <rect key="frame" x="38" y="194" width="340" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                <state key="normal" title="What goes in the food and yard waste bin"/>
+                                <connections>
+                                    <action selector="industrialVid3:" destination="cv9-7p-1ML" eventType="touchUpInside" id="sAI-WP-SOD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="wKO-Cc-OqF"/>
                     </view>
+                    <navigationItem key="navigationItem" id="j3q-dk-srM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JCs-vb-Wog" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1037,11 +1046,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Zrf-J2-6An"/>
-        <segue reference="r5U-6T-K7E"/>
-        <segue reference="JVQ-4N-rpn"/>
-        <segue reference="snk-j7-9Kj"/>
-        <segue reference="oml-vM-YqA"/>
+        <segue reference="N3c-FC-CtD"/>
+        <segue reference="1z8-Mb-uwn"/>
+        <segue reference="vYK-5S-B9x"/>
+        <segue reference="xip-ml-oK1"/>
+        <segue reference="HX1-wZ-nBP"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="B1" width="275" height="183"/>
@@ -1050,10 +1059,10 @@
         <image name="Compost food" width="275" height="183"/>
         <image name="Compost general B" width="259" height="194"/>
         <image name="Fish" width="189" height="267"/>
-        <image name="I1" width="275" height="183"/>
         <image name="I2" width="275" height="183"/>
         <image name="coffee grounds" width="299" height="168"/>
         <image name="compost general I" width="275" height="183"/>
+        <image name="compostTurner" width="275" height="183"/>
         <image name="dairy products" width="269" height="187"/>
         <image name="e" width="275" height="183"/>
         <image name="flowers" width="275" height="183"/>
