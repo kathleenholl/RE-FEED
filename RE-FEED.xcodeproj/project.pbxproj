@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		144C43C424C0195100381627 /* CompostHomepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144C43C324C0195100381627 /* CompostHomepage.swift */; };
+		144C43C624C0196300381627 /* backyardHomepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144C43C524C0196300381627 /* backyardHomepage.swift */; };
+		144C43C824C0197500381627 /* backyardPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144C43C724C0197500381627 /* backyardPage2.swift */; };
+		144C43CA24C019A000381627 /* industrialHomepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144C43C924C019A000381627 /* industrialHomepage.swift */; };
+		144C43CC24C019AF00381627 /* industrialPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144C43CB24C019AF00381627 /* industrialPage2.swift */; };
 		1464E3CC24BE4AE7009D0ADF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1464E3CB24BE4AE7009D0ADF /* AppDelegate.swift */; };
 		1464E3CE24BE4AE7009D0ADF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1464E3CD24BE4AE7009D0ADF /* SceneDelegate.swift */; };
 		1464E3D024BE4AE7009D0ADF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1464E3CF24BE4AE7009D0ADF /* ViewController.swift */; };
@@ -37,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		144C43C324C0195100381627 /* CompostHomepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompostHomepage.swift; sourceTree = "<group>"; };
+		144C43C524C0196300381627 /* backyardHomepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backyardHomepage.swift; sourceTree = "<group>"; };
+		144C43C724C0197500381627 /* backyardPage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backyardPage2.swift; sourceTree = "<group>"; };
+		144C43C924C019A000381627 /* industrialHomepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = industrialHomepage.swift; sourceTree = "<group>"; };
+		144C43CB24C019AF00381627 /* industrialPage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = industrialPage2.swift; sourceTree = "<group>"; };
 		1464E3C824BE4AE7009D0ADF /* RE-FEED.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RE-FEED.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1464E3CB24BE4AE7009D0ADF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1464E3CD24BE4AE7009D0ADF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +122,11 @@
 				1464E3D924BE4AEC009D0ADF /* LaunchScreen.storyboard */,
 				1464E3DC24BE4AEC009D0ADF /* Info.plist */,
 				1464E3D424BE4AE7009D0ADF /* RE_FEED.xcdatamodeld */,
+				144C43C324C0195100381627 /* CompostHomepage.swift */,
+				144C43C524C0196300381627 /* backyardHomepage.swift */,
+				144C43C724C0197500381627 /* backyardPage2.swift */,
+				144C43C924C019A000381627 /* industrialHomepage.swift */,
+				144C43CB24C019AF00381627 /* industrialPage2.swift */,
 			);
 			path = "RE-FEED";
 			sourceTree = "<group>";
@@ -265,10 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				144C43CA24C019A000381627 /* industrialHomepage.swift in Sources */,
+				144C43C624C0196300381627 /* backyardHomepage.swift in Sources */,
+				144C43CC24C019AF00381627 /* industrialPage2.swift in Sources */,
 				1464E3D024BE4AE7009D0ADF /* ViewController.swift in Sources */,
 				1464E3CC24BE4AE7009D0ADF /* AppDelegate.swift in Sources */,
 				E7A8B9BC24BF811C0081DFB9 /* SecondTableViewController.swift in Sources */,
+				144C43C424C0195100381627 /* CompostHomepage.swift in Sources */,
 				1464E3D624BE4AE7009D0ADF /* RE_FEED.xcdatamodeld in Sources */,
+				144C43C824C0197500381627 /* backyardPage2.swift in Sources */,
 				1464E3CE24BE4AE7009D0ADF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
