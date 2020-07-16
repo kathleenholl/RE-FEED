@@ -25,6 +25,15 @@ class donateto: UIViewController {
         UIApplication.shared.open(URL(string : "https://www.northwestharvest.org/public-drop-sites")! as URL, options: [:], completionHandler: nil)
         
     }
+    @IBAction func Organization4(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string : "https://westseattlefoodbank.org/donate-food/")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    
+    
+    @IBAction func MoreOrgs(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string : "https://ampleharvest.org/donate-food/")! as URL, options: [:], completionHandler: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
