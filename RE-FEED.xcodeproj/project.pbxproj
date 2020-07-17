@@ -21,9 +21,11 @@
 		1464E3DB24BE4AEC009D0ADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1464E3D924BE4AEC009D0ADF /* LaunchScreen.storyboard */; };
 		1464E3E624BE4AEC009D0ADF /* RE_FEEDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1464E3E524BE4AEC009D0ADF /* RE_FEEDTests.swift */; };
 		1464E3F124BE4AEC009D0ADF /* RE_FEEDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1464E3F024BE4AEC009D0ADF /* RE_FEEDUITests.swift */; };
+		14721CC524C147B60045958E /* CookingAndShopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14721CC424C147B60045958E /* CookingAndShopping.swift */; };
+		14721CC724C147D60045958E /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14721CC624C147D60045958E /* HomePage.swift */; };
+		14721CC924C14B6F0045958E /* GroceryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14721CC824C14B6F0045958E /* GroceryHome.swift */; };
+		14721CCB24C14B800045958E /* CookingHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14721CCA24C14B800045958E /* CookingHome.swift */; };
 		E7A8B9BC24BF811C0081DFB9 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A8B9BB24BF811C0081DFB9 /* SecondTableViewController.swift */; };
-		E7A8BA3D24C118270081DFB9 /* CookingTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A8BA3C24C118260081DFB9 /* CookingTab.swift */; };
-		E7A8BA3F24C11B9D0081DFB9 /* GroceryListTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A8BA3E24C11B9C0081DFB9 /* GroceryListTab.swift */; };
 		FA9AA24724C0C5C100CDB5AC /* donationshomepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9AA24624C0C5C100CDB5AC /* donationshomepage.swift */; };
 		FA9AA24924C0C8BA00CDB5AC /* donateto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9AA24824C0C8B900CDB5AC /* donateto.swift */; };
 		FA9AA24B24C0D04F00CDB5AC /* needdonations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9AA24A24C0D04E00CDB5AC /* needdonations.swift */; };
@@ -67,9 +69,11 @@
 		1464E3EC24BE4AEC009D0ADF /* RE-FEEDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RE-FEEDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1464E3F024BE4AEC009D0ADF /* RE_FEEDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RE_FEEDUITests.swift; sourceTree = "<group>"; };
 		1464E3F224BE4AEC009D0ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14721CC424C147B60045958E /* CookingAndShopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingAndShopping.swift; sourceTree = "<group>"; };
+		14721CC624C147D60045958E /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		14721CC824C14B6F0045958E /* GroceryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryHome.swift; sourceTree = "<group>"; };
+		14721CCA24C14B800045958E /* CookingHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingHome.swift; sourceTree = "<group>"; };
 		E7A8B9BB24BF811C0081DFB9 /* SecondTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
-		E7A8BA3C24C118260081DFB9 /* CookingTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingTab.swift; sourceTree = "<group>"; };
-		E7A8BA3E24C11B9C0081DFB9 /* GroceryListTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListTab.swift; sourceTree = "<group>"; };
 		FA9AA24624C0C5C100CDB5AC /* donationshomepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donationshomepage.swift; sourceTree = "<group>"; };
 		FA9AA24824C0C8B900CDB5AC /* donateto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donateto.swift; sourceTree = "<group>"; };
 		FA9AA24A24C0D04E00CDB5AC /* needdonations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = needdonations.swift; sourceTree = "<group>"; };
@@ -127,8 +131,6 @@
 				1464E3CD24BE4AE7009D0ADF /* SceneDelegate.swift */,
 				1464E3CF24BE4AE7009D0ADF /* ViewController.swift */,
 				1464E3D124BE4AE7009D0ADF /* Main.storyboard */,
-				E7A8BA3E24C11B9C0081DFB9 /* GroceryListTab.swift */,
-				E7A8BA3C24C118260081DFB9 /* CookingTab.swift */,
 				FA9AA24A24C0D04E00CDB5AC /* needdonations.swift */,
 				FA9AA24824C0C8B900CDB5AC /* donateto.swift */,
 				E7A8B9BB24BF811C0081DFB9 /* SecondTableViewController.swift */,
@@ -142,6 +144,10 @@
 				144C43C924C019A000381627 /* industrialHomepage.swift */,
 				144C43CB24C019AF00381627 /* industrialPage2.swift */,
 				FA9AA24624C0C5C100CDB5AC /* donationshomepage.swift */,
+				14721CC424C147B60045958E /* CookingAndShopping.swift */,
+				14721CC624C147D60045958E /* HomePage.swift */,
+				14721CC824C14B6F0045958E /* GroceryHome.swift */,
+				14721CCA24C14B800045958E /* CookingHome.swift */,
 			);
 			path = "RE-FEED";
 			sourceTree = "<group>";
@@ -299,16 +305,18 @@
 				144C43C624C0196300381627 /* backyardHomepage.swift in Sources */,
 				144C43CC24C019AF00381627 /* industrialPage2.swift in Sources */,
 				1464E3D024BE4AE7009D0ADF /* ViewController.swift in Sources */,
+				14721CCB24C14B800045958E /* CookingHome.swift in Sources */,
+				14721CC724C147D60045958E /* HomePage.swift in Sources */,
 				1464E3CC24BE4AE7009D0ADF /* AppDelegate.swift in Sources */,
 				FA9AA24724C0C5C100CDB5AC /* donationshomepage.swift in Sources */,
 				E7A8B9BC24BF811C0081DFB9 /* SecondTableViewController.swift in Sources */,
 				FA9AA24B24C0D04F00CDB5AC /* needdonations.swift in Sources */,
+				14721CC524C147B60045958E /* CookingAndShopping.swift in Sources */,
 				144C43C424C0195100381627 /* CompostHomepage.swift in Sources */,
 				1464E3D624BE4AE7009D0ADF /* RE_FEED.xcdatamodeld in Sources */,
 				144C43C824C0197500381627 /* backyardPage2.swift in Sources */,
 				1464E3CE24BE4AE7009D0ADF /* SceneDelegate.swift in Sources */,
-				E7A8BA3D24C118270081DFB9 /* CookingTab.swift in Sources */,
-				E7A8BA3F24C11B9D0081DFB9 /* GroceryListTab.swift in Sources */,
+				14721CC924C14B6F0045958E /* GroceryHome.swift in Sources */,
 				FA9AA24924C0C8BA00CDB5AC /* donateto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
