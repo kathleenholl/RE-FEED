@@ -3,7 +3,8 @@
 //  RE-FEED
 //
 //  Created by Sophie Yuen on 7/15/20.
-//  Copyright © 2020 Kathleen Hollinger. All rights reserved.
+//  Copyright © 2020
+//All rights reserved.
 //
 
 import UIKit
