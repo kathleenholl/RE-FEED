@@ -32,13 +32,17 @@ class CookingTab: UITableViewController {
         return 0
     }
 
-@IBAction func BackyardVid1(_ sender: UIButton) {
-    UIApplication.shared.open(URL(string : "https://www.bigoven.com/recipes/leftover")! as URL, options: [:], completionHandler: nil)
-}
-@IBAction func BackyardVid2(_ sender: UIButton) {
-    UIApplication.shared.open(URL(string : "https://www.supercook.com/#/recipes")! as URL, options: [:], completionHandler: nil)
-}
-@IBAction func BackyardArticle1(_ sender: UIButton) {
-    UIApplication.shared.open(URL(string : "https://myfridgefood.com/")! as URL, options: [:], completionHandler: nil)
-}
-}
+    @IBAction func BackyardVid1(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string : "https://www.bigoven.com/recipes/leftover")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func BackyardVid2(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string : "https://www.supercook.com/#/recipes")! as URL, options: [:], completionHandler: nil)
+    }
+    
+
+    @IBAction func BackyardArticle1(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string : "https://myfridgefood.com/")! as URL, options: [:], completionHandler: nil)
+        }
+    }
+

@@ -38,8 +38,7 @@
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="2oW-QU-O4P" appends="YES" id="MbD-fy-2rA"/>
-                                    <segue destination="nXe-20-9RT" kind="presentation" modalPresentationStyle="automatic" id="3UP-GO-XLF"/>
+                                    <segue destination="nXe-20-9RT" kind="show" id="ssC-Ge-5cC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hA8-K2-GHh">
@@ -51,7 +50,7 @@
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="YLw-12-bE8" kind="show" id="5OQ-de-Kc5"/>
+                                    <segue destination="YLw-12-bE8" kind="show" id="wGt-nL-2kp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="85T-4v-zWw">
@@ -143,9 +142,6 @@
                                     <color key="titleColor" red="0.52952480319999995" green="0.91376727820000003" blue="0.82511001829999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="28" weight="medium"/>
                                 </state>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="HX1-wZ-nBP"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VpU-QH-snT">
                                 <rect key="frame" x="16" y="126" width="378" height="142"/>
@@ -713,7 +709,6 @@
         <!--Second Table View Controller-->
         <scene sceneID="Kee-CI-aMv">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yPk-Q0-FP2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="nXe-20-9RT" customClass="SecondTableViewController" customModule="RE_FEED" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sNS-6G-pwH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -728,9 +723,6 @@
                                         <state key="normal" title="Button">
                                             <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="ingredientTapped:" destination="nXe-20-9RT" eventType="touchUpInside" id="W6Z-Wa-Ql4"/>
-                                        </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXd-Ro-1H5">
                                         <rect key="frame" x="0.0" y="0.0" width="65" height="0.0"/>
@@ -738,9 +730,6 @@
                                         <state key="normal" title="Button">
                                             <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="ingredientTapped:" destination="nXe-20-9RT" eventType="touchUpInside" id="3Nt-gu-z2b"/>
-                                        </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lpz-e7-IPC">
                                         <rect key="frame" x="0.0" y="0.0" width="65" height="0.0"/>
@@ -748,9 +737,6 @@
                                         <state key="normal" title="Button">
                                             <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="ingredientTapped:" destination="nXe-20-9RT" eventType="touchUpInside" id="LTE-fI-iIP"/>
-                                        </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHc-gb-fmY">
                                         <rect key="frame" x="0.0" y="0.0" width="65" height="0.0"/>
@@ -758,9 +744,6 @@
                                         <state key="normal" title="Button">
                                             <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="ingredientTapped:" destination="nXe-20-9RT" eventType="touchUpInside" id="ms0-fQ-btT"/>
-                                        </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pv2-rc-s0o">
                                         <rect key="frame" x="0.0" y="0.0" width="65" height="0.0"/>
@@ -768,9 +751,6 @@
                                         <state key="normal" title="Button">
                                             <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="ingredientTapped:" destination="nXe-20-9RT" eventType="touchUpInside" id="8ML-FT-xGv"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -821,7 +801,7 @@
                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="cNN-M1-q3b" kind="presentation" id="S37-Xv-qcV"/>
+                                    <segue destination="cNN-M1-q3b" kind="show" id="fEZ-Vg-zsU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pn-G7-VhU">
@@ -835,18 +815,29 @@
                                     <color key="titleColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                 </state>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="h02-Jr-gtI">
+                                <rect key="frame" x="20" y="20" width="58" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NZE-bW-RSJ">
+                                <rect key="frame" x="294" y="20" width="100" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" image="house.fill" catalog="system">
+                                    <color key="titleColor" red="0.52952480319999995" green="0.91376727820000003" blue="0.82511001829999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="28" weight="medium"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="el5-14-35B"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="eP3-pr-WeO"/>
                     </view>
-                    <connections>
-                        <outletCollection property="ingredientButton" destination="bop-fd-WUK" collectionClass="NSMutableArray" id="WBN-kz-okp"/>
-                        <outletCollection property="ingredientButton" destination="pXd-Ro-1H5" collectionClass="NSMutableArray" id="pU9-x7-zg3"/>
-                        <outletCollection property="ingredientButton" destination="lpz-e7-IPC" collectionClass="NSMutableArray" id="ZBt-dz-P88"/>
-                        <outletCollection property="ingredientButton" destination="cHc-gb-fmY" collectionClass="NSMutableArray" id="vvN-1H-2WX"/>
-                        <outletCollection property="ingredientButton" destination="pv2-rc-s0o" collectionClass="NSMutableArray" id="3Lg-89-Yeb"/>
-                    </connections>
+                    <navigationItem key="navigationItem" id="mwY-Eb-biU"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yPk-Q0-FP2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="886.95652173913049" y="126.5625"/>
         </scene>
@@ -859,7 +850,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ibG-Hh-T2p">
-                                <rect key="frame" x="62" y="63" width="291" height="45"/>
+                                <rect key="frame" x="67" y="80" width="291" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.51849216220000005" green="0.86889129880000004" blue="0.91062587500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
@@ -898,7 +889,6 @@
                                 </state>
                                 <connections>
                                     <action selector="BackyardVid1:" destination="tyw-XX-wRO" eventType="touchUpInside" id="m83-I6-x5h"/>
-                                    <action selector="BackyardVid2:" destination="cNN-M1-q3b" eventType="touchUpInside" id="y2z-1b-ouD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jtr-0d-N9p">
@@ -909,7 +899,6 @@
                                     <color key="titleColor" red="0.093738637864589691" green="0.2530522346496582" blue="0.48669129610061646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="BackyardArticle1:" destination="cNN-M1-q3b" eventType="touchUpInside" id="aAE-Ac-wwX"/>
                                     <action selector="BackyardVid2:" destination="tyw-XX-wRO" eventType="touchUpInside" id="nL6-dy-vK7"/>
                                 </connections>
                             </button>
@@ -925,6 +914,22 @@
                                 <rect key="frame" x="52" y="698" width="72" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="AoB-bi-Ryb">
+                                <rect key="frame" x="20" y="20" width="58" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JfR-OH-gzV">
+                                <rect key="frame" x="294" y="27" width="100" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" image="house.fill" catalog="system">
+                                    <color key="titleColor" red="0.52952480319999995" green="0.91376727820000003" blue="0.82511001829999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="28" weight="medium"/>
+                                </state>
+                                <connections>
+                                    <segue destination="nXe-20-9RT" kind="show" id="iZe-D5-B84"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="jGs-Y7-HG5"/>
@@ -943,7 +948,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3BX-G7-EiC">
-                                <rect key="frame" x="62" y="50" width="291" height="45"/>
+                                <rect key="frame" x="62" y="87" width="291" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.51849216220000005" green="0.86889129880000004" blue="0.91062587500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
@@ -974,8 +979,7 @@
                                             <color key="titleColor" red="0.093738637864589691" green="0.2530522346496582" blue="0.48669129610061646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="BackyardVid1:" destination="cNN-M1-q3b" eventType="touchUpInside" id="gGe-Qp-yeu"/>
-                                            <action selector="BigOvenApp:" destination="cNN-M1-q3b" eventType="touchUpInside" id="dgX-iB-erW"/>
+                                            <action selector="BackyardVid1:" destination="cNN-M1-q3b" eventType="touchUpInside" id="sHx-pz-ZaF"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mvH-Xl-303">
@@ -985,7 +989,7 @@
                                             <color key="titleColor" red="0.093738637864589691" green="0.2530522346496582" blue="0.48669129610061646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="BackyardVid2:" destination="cNN-M1-q3b" eventType="touchUpInside" id="Hao-C5-7gR"/>
+                                            <action selector="BackyardVid2:" destination="cNN-M1-q3b" eventType="touchUpInside" id="ilH-yg-KHY"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qWn-cz-OFy">
@@ -995,7 +999,7 @@
                                             <color key="titleColor" red="0.093738637864589691" green="0.2530522346496582" blue="0.48669129610061646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="BackyardArticle1:" destination="cNN-M1-q3b" eventType="touchUpInside" id="7bQ-fv-rOY"/>
+                                            <action selector="BackyardArticle1:" destination="cNN-M1-q3b" eventType="touchUpInside" id="qAo-EK-F6I"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -1012,8 +1016,24 @@
                                 <rect key="frame" x="22" y="655" width="72" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="3SD-uD-mml">
+                                <rect key="frame" x="20" y="20" width="58" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="83V-ro-qvl">
+                                <rect key="frame" x="294" y="20" width="100" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" image="house.fill" catalog="system">
+                                    <color key="titleColor" red="0.52952480319999995" green="0.91376727820000003" blue="0.82511001829999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="28" weight="medium"/>
+                                </state>
+                                <connections>
+                                    <segue destination="nXe-20-9RT" kind="show" id="bdw-iU-Str"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Hu-gG-TVo">
-                                <rect key="frame" x="22" y="114" width="370" height="231"/>
+                                <rect key="frame" x="22" y="154" width="370" height="231"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">It's common to have leftover ingredients when making a recipe but may be difficult to find a use for them. As a result these ingredients may become forgotten about and eventually spoil in your fridge. Similarly, when you buy too much of something it may start to turn bad. A way to prevent wasting these food items is to incorporate them into recipes.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
@@ -1024,6 +1044,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="xMc-ws-TZj"/>
                     </view>
+                    <navigationItem key="navigationItem" id="1Tm-Ec-TNE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lxp-KY-rPW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1037,19 +1058,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOI-L6-Es2">
-                                <rect key="frame" x="62" y="71" width="291" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.51849216220000005" green="0.86889129880000004" blue="0.91062587500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <gestureRecognizers/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="27"/>
-                                <color key="tintColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="FOOD STORAGE TIPS">
-                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34O-ol-AXG">
-                                <rect key="frame" x="51" y="124" width="313" height="142"/>
+                                <rect key="frame" x="51" y="143" width="313" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">The way food is stored can significantly increase its freshness over time and reduce overall food waste over time. By making perishable food easily accessible and in sight you likely won’t forget about it.
 </string>
@@ -1092,6 +1102,33 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="GDw-P7-1AO">
+                                <rect key="frame" x="20" y="20" width="58" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QHV-cY-VtJ">
+                                <rect key="frame" x="294" y="20" width="100" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" image="house.fill" catalog="system">
+                                    <color key="titleColor" red="0.52952480319999995" green="0.91376727820000003" blue="0.82511001829999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="28" weight="medium"/>
+                                </state>
+                                <connections>
+                                    <segue destination="nXe-20-9RT" kind="show" id="tcw-qX-hGY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOI-L6-Es2">
+                                <rect key="frame" x="62" y="87" width="291" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.51849216220000005" green="0.86889129880000004" blue="0.91062587500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="27"/>
+                                <color key="tintColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="FOOD STORAGE TIPS">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="l8v-dW-oXS"/>
@@ -1159,9 +1196,6 @@
                                     <color key="titleColor" red="0.52952480319999995" green="0.91376727820000003" blue="0.82511001829999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="28" weight="medium"/>
                                 </state>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="oml-vM-YqA"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -1423,10 +1457,10 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="N3c-FC-CtD"/>
+        <segue reference="ssC-Ge-5cC"/>
         <segue reference="fEu-sw-isC"/>
-        <segue reference="XX9-oT-zzC"/>
-        <segue reference="HNQ-5z-2DA"/>
-        <segue reference="HX1-wZ-nBP"/>
+        <segue reference="vYK-5S-B9x"/>
+        <segue reference="wGt-nL-2kp"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="B1" width="275" height="183"/>
