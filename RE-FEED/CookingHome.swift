@@ -12,17 +12,23 @@ class CookingHome: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-    @IBAction func Bigoven(_ sender: UIButton) {
-        UIApplication.shared.open(URL(string : "https://www.bigoven.com/recipes/leftover")! as URL, options: [:], completionHandler: nil)
-    }
-    @IBAction func Supercook(_ sender: UIButton) {
-        UIApplication.shared.open(URL(string : "https://www.supercook.com/#/recipes")! as URL, options: [:], completionHandler: nil)
-    }
-    @IBAction func Myfridgefood(_ sender: UIButton) {
-        UIApplication.shared.open(URL(string : "https://myfridgefood.com/")! as URL, options: [:], completionHandler: nil)
     }
     
-}
+
+    @IBAction func BigOven(_ sender: UIButton) {
+         UIApplication.shared.open(URL(string : "https://www.bigoven.com/recipes/leftover")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func SuperCook(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string : "https://www.supercook.com/#/recipes")! as URL, options: [:], completionHandler: nil)
+    }
+    @IBAction func MyFridgeFood(_ sender: UIButton) {
+         UIApplication.shared.open(URL(string : "https://myfridgefood.com/")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    
+
+    }
+    
+
+
+

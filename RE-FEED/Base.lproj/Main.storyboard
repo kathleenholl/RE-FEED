@@ -77,8 +77,7 @@
                                     <color key="titleColor" red="0.5414738655090332" green="0.1985231339931488" blue="0.092675663530826569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="BigOven:" destination="bVq-xH-wPd" eventType="touchUpInside" id="CO0-DO-KZZ"/>
-                                    <action selector="Bigoven:" destination="bVq-xH-wPd" eventType="touchUpInside" id="Kky-IK-thN"/>
+                                    <action selector="BigOven:" destination="bVq-xH-wPd" eventType="touchUpInside" id="6eX-tP-BPO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cj0-l5-HPc">
@@ -89,8 +88,7 @@
                                     <color key="titleColor" red="0.24396434426307678" green="0.3249860405921936" blue="0.074342899024486542" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="SuperCook:" destination="bVq-xH-wPd" eventType="touchUpInside" id="OV9-pI-VQr"/>
-                                    <action selector="Supercook:" destination="bVq-xH-wPd" eventType="touchUpInside" id="m2i-m3-pnW"/>
+                                    <action selector="SuperCook:" destination="bVq-xH-wPd" eventType="touchUpInside" id="jeB-wn-PaF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1wT-1g-GGu">
@@ -101,8 +99,7 @@
                                     <color key="titleColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="MyFridgeFood:" destination="bVq-xH-wPd" eventType="touchUpInside" id="O4p-QO-3ho"/>
-                                    <action selector="Myfridgefood:" destination="bVq-xH-wPd" eventType="touchUpInside" id="KLk-tB-9z4"/>
+                                    <action selector="MyFridgeFood:" destination="bVq-xH-wPd" eventType="touchUpInside" id="RyE-jY-VWr"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-1" translatesAutoresizingMaskIntoConstraints="NO" id="IxI-T4-SN8">
@@ -166,9 +163,7 @@
                                     <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="BackyardVid1:" destination="4Lm-BW-APu" eventType="touchUpInside" id="QQz-y8-TRC"/>
-                                    <action selector="MealTimeButton:" destination="4Lm-BW-APu" eventType="touchUpInside" id="DN9-zj-Jdl"/>
-                                    <action selector="Mealtime:" destination="4Lm-BW-APu" eventType="touchUpInside" id="mA0-uC-iwa"/>
+                                    <action selector="MealTime2:" destination="4Lm-BW-APu" eventType="touchUpInside" id="DZV-BS-DlM"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="dyK-lo-ewh">
@@ -203,8 +198,7 @@
                                     <color key="titleColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="BringButton:" destination="4Lm-BW-APu" eventType="touchUpInside" id="dHr-Zq-fux"/>
-                                    <action selector="Bringbutton:" destination="4Lm-BW-APu" eventType="touchUpInside" id="obh-th-a4l"/>
+                                    <action selector="BringButton2:" destination="4Lm-BW-APu" eventType="touchUpInside" id="ugZ-X5-eoO"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1422,9 +1416,9 @@
         <segue reference="RLW-tL-rBD"/>
         <segue reference="fEu-sw-isC"/>
         <segue reference="vYK-5S-B9x"/>
-        <segue reference="fht-m4-Wku"/>
-        <segue reference="M4F-Y2-uMn"/>
-        <segue reference="0Ht-kB-mt7"/>
+        <segue reference="xip-ml-oK1"/>
+        <segue reference="x3l-dF-lK5"/>
+        <segue reference="6iG-oU-oG2"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="B1" width="275" height="183"/>

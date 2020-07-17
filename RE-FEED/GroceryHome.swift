@@ -13,14 +13,13 @@ class GroceryHome: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+}
+    @IBAction func MealTime2(_ sender: Any) {
+         UIApplication.shared.open(URL(string :"https://www.youtube.com/watch?v=mDIVpJgjoXQ")! as URL, options: [:], completionHandler: nil)
     }
-    @IBAction func Mealtime(_ sender: UIButton) {
-        UIApplication.shared.open(URL(string :"https://www.youtube.com/watch?v=mDIVpJgjoXQ")! as URL, options: [:], completionHandler: nil)
-    }
-    @IBAction func Bringbutton(_ sender: UIButton) {
+
+    @IBAction func BringButton2(_ sender: Any) {
         UIApplication.shared.open(URL(string : "https://www.youtube.com/watch?v=bGRunDez1j4")! as URL, options: [:], completionHandler: nil)
+        
     }
-
-
 }
