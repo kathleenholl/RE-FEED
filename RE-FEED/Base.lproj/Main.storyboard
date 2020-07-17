@@ -99,7 +99,7 @@
                                     <color key="titleColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="MyFridgeFood:" destination="bVq-xH-wPd" eventType="touchUpInside" id="RyE-jY-VWr"/>
+                                    <action selector="MyFridgeFood:" destination="bVq-xH-wPd" eventType="touchUpInside" id="wDE-3w-XH4"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-1" translatesAutoresizingMaskIntoConstraints="NO" id="IxI-T4-SN8">
@@ -235,7 +235,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qff-MX-fbn">
-                                <rect key="frame" x="294" y="20" width="100" height="59"/>
+                                <rect key="frame" x="311" y="20" width="83" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <state key="normal" image="house.fill" catalog="system">
@@ -260,20 +260,14 @@
                                     <segue destination="4Lm-BW-APu" kind="show" id="VXn-3B-lpZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SEx-7V-tzW">
-                                <rect key="frame" x="62" y="665" width="291" height="45"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tLS-4e-7tA">
+                                <rect key="frame" x="19" y="161" width="377" height="208"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.51849216220000005" green="0.86889129880000004" blue="0.91062587500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <gestureRecognizers/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="27"/>
-                                <color key="tintColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="STORAGE">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="ta3-nB-UGi" kind="show" id="g0t-Cq-9kZ"/>
-                                </connections>
-                            </button>
+                                <string key="text">In the United States alone, an estimated 30-40 percent of food is wasted. Food waste is an environmental issue because when thrown into landfills, it produces large amounts of methane, a potent greenhouse gas. Food production is heavily energy intensive and requires huge amounts of resources. Therefore it's important to be aware of what you are buying, cooking, and eating to prevent this problem.</string>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="18"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xiv-hQ-6sZ">
                                 <rect key="frame" x="62" y="533" width="291" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -288,14 +282,6 @@
                                     <segue destination="bVq-xH-wPd" kind="show" id="fH3-2t-r8d"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tLS-4e-7tA">
-                                <rect key="frame" x="19" y="161" width="377" height="208"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">In the United States alone, an estimated 30-40 percent of food is wasted. Food waste is an environmental issue because when thrown into landfills, it produces large amounts of methane, a potent greenhouse gas. Food production is heavily energy intensive and requires huge amounts of resources. Therefore it's important to be aware of what you are buying, cooking, and eating to prevent this problem.</string>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="18"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="jkQ-LC-H3y"/>
@@ -1008,7 +994,7 @@
             <objects>
                 <viewController id="ta3-nB-UGi" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GZM-qT-82c">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lAg-6a-8wR">
@@ -1418,7 +1404,7 @@
         <segue reference="vYK-5S-B9x"/>
         <segue reference="xip-ml-oK1"/>
         <segue reference="x3l-dF-lK5"/>
-        <segue reference="6iG-oU-oG2"/>
+        <segue reference="eSG-YN-Knj"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="B1" width="275" height="183"/>

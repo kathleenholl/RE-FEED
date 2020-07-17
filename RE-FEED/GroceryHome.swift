@@ -15,11 +15,13 @@ class GroceryHome: UIViewController {
 
 }
     @IBAction func MealTime2(_ sender: Any) {
-         UIApplication.shared.open(URL(string :"https://www.youtube.com/watch?v=mDIVpJgjoXQ")! as URL, options: [:], completionHandler: nil)
+         UIApplication.shared.open(URL(string :"https://www.mymealtime.com/")! as URL, options: [:], completionHandler: nil)
     }
 
     @IBAction func BringButton2(_ sender: Any) {
-        UIApplication.shared.open(URL(string : "https://www.youtube.com/watch?v=bGRunDez1j4")! as URL, options: [:], completionHandler: nil)
+        UIApplication.shared.open(URL(string : "https://getbring.com/#!/app")! as URL, options: [:], completionHandler: nil)
         
-    }
+    
+
+}
 }
