@@ -1,12 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "meat.jpg",
+      "filename" : "twigs.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "grocery shopping.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

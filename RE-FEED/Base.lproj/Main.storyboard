@@ -39,7 +39,7 @@
                                 </state>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="2oW-QU-O4P" appends="YES" id="MbD-fy-2rA"/>
-                                    <segue destination="nXe-20-9RT" kind="presentation" id="mrR-ee-rhT"/>
+                                    <segue destination="nXe-20-9RT" kind="presentation" modalPresentationStyle="automatic" id="3UP-GO-XLF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hA8-K2-GHh">
@@ -713,6 +713,7 @@
         <!--Second Table View Controller-->
         <scene sceneID="Kee-CI-aMv">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yPk-Q0-FP2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="nXe-20-9RT" customClass="SecondTableViewController" customModule="RE_FEED" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sNS-6G-pwH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -773,19 +774,8 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pn-G7-VhU">
-                                <rect key="frame" x="20" y="54" width="374" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.51849216220000005" green="0.86889129880000004" blue="0.91062587500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <gestureRecognizers/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="24"/>
-                                <color key="tintColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="PREVENTING FOOD WASTE">
-                                    <color key="titleColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
-                                </state>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfH-Bk-04H">
-                                <rect key="frame" x="0.0" y="99" width="414" height="231"/>
+                                <rect key="frame" x="0.0" y="129" width="414" height="231"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">In the United States alone, an estimated 30-40 percent of food is wasted. Food waste is an environmental issue because when thrown into landfills, it produces large amounts of methane, a potent greenhouse gas. Food production is heavily energy intensive and requires huge amounts of resources. Therefore it's important to be aware of what you are buying, cooking, and eating to prevent this problem.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -803,7 +793,7 @@
                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="tyw-XX-wRO" kind="presentation" id="rNE-ey-b4d"/>
+                                    <segue destination="tyw-XX-wRO" kind="presentation" id="ayT-dX-hIw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fgw-Am-ULx">
@@ -816,6 +806,9 @@
                                 <state key="normal" title="STORAGE">
                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="MsI-Wm-MP5" kind="presentation" id="nY7-ry-eEj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2zT-hj-Dho">
                                 <rect key="frame" x="62" y="486" width="291" height="45"/>
@@ -826,6 +819,20 @@
                                 <color key="tintColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="COOKING">
                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="cNN-M1-q3b" kind="presentation" id="S37-Xv-qcV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pn-G7-VhU">
+                                <rect key="frame" x="20" y="91" width="374" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.51849216220000005" green="0.86889129880000004" blue="0.91062587500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="24"/>
+                                <color key="tintColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="PREVENTING FOOD WASTE">
+                                    <color key="titleColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                 </state>
                             </button>
                         </subviews>
@@ -840,20 +847,19 @@
                         <outletCollection property="ingredientButton" destination="pv2-rc-s0o" collectionClass="NSMutableArray" id="3Lg-89-Yeb"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yPk-Q0-FP2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="886.95652173913049" y="126.5625"/>
         </scene>
-        <!--View Controller-->
+        <!--Grocery List Tab-->
         <scene sceneID="ezQ-Lm-rQb">
             <objects>
-                <viewController id="tyw-XX-wRO" sceneMemberID="viewController">
+                <viewController id="tyw-XX-wRO" customClass="GroceryListTab" customModule="RE_FEED" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6gj-fu-qMr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ibG-Hh-T2p">
-                                <rect key="frame" x="62" y="36" width="291" height="45"/>
+                                <rect key="frame" x="62" y="63" width="291" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.51849216220000005" green="0.86889129880000004" blue="0.91062587500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
@@ -864,15 +870,59 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nHt-DD-cyR">
-                                <rect key="frame" x="22" y="244" width="370" height="231"/>
+                                <rect key="frame" x="20" y="306" width="370" height="231"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">To prevent having extra food that ends up going bad in your fridge, it's helpful to write a shopping list with the exact meals you plan to cook during the week in mind. Stick to your list and avoid purchasing bulk items, as you might not be able to finish them. Finally, if possible, purchase "flawed" produce that will otherwise be left behind. Flawed produce is perfectly safe and healthy to consume.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xO8-WZ-yPL">
-                                <rect key="frame" x="87" y="108" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="xO8-WZ-yPL">
+                                <rect key="frame" x="52" y="152" width="307" height="159"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.57663249969482422" green="0.87231457233428955" blue="0.91351884603500366" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grocery List Apps" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vCc-x0-2OS">
+                                <rect key="frame" x="111" y="551" width="203" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sma-SL-3oq">
+                                <rect key="frame" x="149" y="612" width="131" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="30"/>
+                                <state key="normal" title="Meal Time">
+                                    <color key="titleColor" red="0.093738637864589691" green="0.2530522346496582" blue="0.48669129610061646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="BackyardVid1:" destination="tyw-XX-wRO" eventType="touchUpInside" id="m83-I6-x5h"/>
+                                    <action selector="BackyardVid2:" destination="cNN-M1-q3b" eventType="touchUpInside" id="y2z-1b-ouD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jtr-0d-N9p">
+                                <rect key="frame" x="149" y="709" width="66" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="30"/>
+                                <state key="normal" title="Bring">
+                                    <color key="titleColor" red="0.093738637864589691" green="0.2530522346496582" blue="0.48669129610061646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="BackyardArticle1:" destination="cNN-M1-q3b" eventType="touchUpInside" id="aAE-Ac-wwX"/>
+                                    <action selector="BackyardVid2:" destination="tyw-XX-wRO" eventType="touchUpInside" id="nL6-dy-vK7"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9HS-dZ-l6d">
+                                <rect key="frame" x="-84" y="530" width="75" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qbt-pE-HfZ">
+                                <rect key="frame" x="52" y="601" width="72" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lhw-yV-vA0">
+                                <rect key="frame" x="52" y="698" width="72" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -884,16 +934,16 @@
             </objects>
             <point key="canvasLocation" x="1686.9565217391305" y="126.5625"/>
         </scene>
-        <!--View Controller-->
+        <!--Cooking Tab-->
         <scene sceneID="NZD-M0-p6c">
             <objects>
-                <viewController id="cNN-M1-q3b" sceneMemberID="viewController">
+                <viewController id="cNN-M1-q3b" customClass="CookingTab" customModule="RE_FEED" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TxB-TC-ynG">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3BX-G7-EiC">
-                                <rect key="frame" x="62" y="78" width="291" height="45"/>
+                                <rect key="frame" x="62" y="50" width="291" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.51849216220000005" green="0.86889129880000004" blue="0.91062587500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
@@ -903,25 +953,73 @@
                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H3Q-mc-8od">
+                                <rect key="frame" x="62" y="399" width="291" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="28"/>
+                                <color key="tintColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Online Recipe Generators">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="59" translatesAutoresizingMaskIntoConstraints="NO" id="5hQ-6Q-gbd">
+                                <rect key="frame" x="129" y="459" width="263" height="232"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sja-kk-HuB">
+                                        <rect key="frame" x="0.0" y="0.0" width="263" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="21"/>
+                                        <state key="normal" title="Big Oven (for few ingredients)">
+                                            <color key="titleColor" red="0.093738637864589691" green="0.2530522346496582" blue="0.48669129610061646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="BackyardVid1:" destination="cNN-M1-q3b" eventType="touchUpInside" id="gGe-Qp-yeu"/>
+                                            <action selector="BigOvenApp:" destination="cNN-M1-q3b" eventType="touchUpInside" id="dgX-iB-erW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mvH-Xl-303">
+                                        <rect key="frame" x="0.0" y="97" width="105" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="21"/>
+                                        <state key="normal" title="Super Cook">
+                                            <color key="titleColor" red="0.093738637864589691" green="0.2530522346496582" blue="0.48669129610061646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="BackyardVid2:" destination="cNN-M1-q3b" eventType="touchUpInside" id="Hao-C5-7gR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qWn-cz-OFy">
+                                        <rect key="frame" x="0.0" y="194" width="139" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="21"/>
+                                        <state key="normal" title="My Fridge Food">
+                                            <color key="titleColor" red="0.093738637864589691" green="0.2530522346496582" blue="0.48669129610061646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="BackyardArticle1:" destination="cNN-M1-q3b" eventType="touchUpInside" id="7bQ-fv-rOY"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kIg-0K-BYL">
+                                <rect key="frame" x="22" y="452" width="72" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DuN-1Q-5um">
+                                <rect key="frame" x="22" y="553" width="72" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BeR-O7-dgv">
+                                <rect key="frame" x="22" y="655" width="72" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Hu-gG-TVo">
-                                <rect key="frame" x="22" y="131" width="370" height="231"/>
+                                <rect key="frame" x="22" y="114" width="370" height="231"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">It's common to have leftover ingredients when making a recipe but may be difficult to find a use for them. As a result these ingredients may become forgotten about and eventually spoil in your fridge. Similarly, when you buy too much of something it may start to turn bad. A way to prevent wasting these food items is to incorporate them into recipes.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H3Q-mc-8od">
-                                <rect key="frame" x="62" y="385" width="291" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.51849216220000005" green="0.86889129880000004" blue="0.91062587500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <gestureRecognizers/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="27"/>
-                                <color key="tintColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="LINKS TO RECIPES">
-                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="xMc-ws-TZj"/>
@@ -936,7 +1034,7 @@
             <objects>
                 <viewController id="MsI-Wm-MP5" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sbT-Yk-Thu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOI-L6-Es2">
@@ -946,14 +1044,51 @@
                                 <gestureRecognizers/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="27"/>
                                 <color key="tintColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="STORAGE">
+                                <state key="normal" title="FOOD STORAGE TIPS">
                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="asgfldk;fasd" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34O-ol-AXG">
-                                <rect key="frame" x="22" y="140" width="370" height="231"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34O-ol-AXG">
+                                <rect key="frame" x="51" y="124" width="313" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <string key="text">The way food is stored can significantly increase its freshness over time and reduce overall food waste over time. By making perishable food easily accessible and in sight you likely won’t forget about it.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fresh Produce" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q2C-r1-DDi">
+                                <rect key="frame" x="107" y="293" width="200" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1P-jw-x6b">
+                                <rect key="frame" x="51" y="329" width="313" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">- Refrigerate fruits and vegetables
+- Freeze extra food
+- Don't store bananas, apples, or tomatoes together
+- Separate fruits and vegetables
+</string>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aCH-ZO-5vf">
+                                <rect key="frame" x="51" y="586" width="313" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The way food is stored can significantly increase its freshness over time and reduce overall food waste over time. By making perishable food easily accessible and in sight you likely won’t forget about it.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Plan Ahead" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uzg-0c-7xH">
+                                <rect key="frame" x="107" y="540" width="200" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="31"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -964,7 +1099,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SlJ-C7-wm4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2787" y="-534"/>
+            <point key="canvasLocation" x="2786.9565217391305" y="-534.375"/>
         </scene>
         <!--Donationshomepage-->
         <scene sceneID="TNu-Ge-g5R">
@@ -1287,7 +1422,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Zrf-J2-6An"/>
+        <segue reference="N3c-FC-CtD"/>
         <segue reference="fEu-sw-isC"/>
         <segue reference="XX9-oT-zzC"/>
         <segue reference="HNQ-5z-2DA"/>
@@ -1301,6 +1436,7 @@
         <image name="Compost general B" width="259" height="194"/>
         <image name="Fish" width="189" height="267"/>
         <image name="I2" width="275" height="183"/>
+        <image name="cart" catalog="system" width="128" height="102"/>
         <image name="coffee grounds" width="299" height="168"/>
         <image name="compost general I" width="275" height="183"/>
         <image name="compostTurner" width="275" height="183"/>
